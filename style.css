@@ -1,0 +1,415 @@
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #f9d177, #cb9825);
+  background-image: -moz-linear-gradient(top, #f9d177, #cb9825);
+  background-image: -ms-linear-gradient(top, #f9d177, #cb9825);
+  background-image: -o-linear-gradient(top, #f9d177, #cb9825);
+  background-image: -webkit-gradient(to bottom, #f9d177, #cb9825);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover {
+  border: solid #ffffff 1px;
+  background: #fdaf01;
+  background-image: -webkit-linear-gradient(top, #fdaf01, #fdaf01);
+  background-image: -moz-linear-gradient(top, #fdaf01, #fdaf01);
+  background-image: -ms-linear-gradient(top, #fdaf01, #fdaf01);
+  background-image: -o-linear-gradient(top, #fdaf01, #fdaf01);
+  background-image: -webkit-gradient(to bottom, #fdaf01, #fdaf01);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.flexbox-1 {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.561);
+  border-radius: 10px;
+  border: solid black;
+  border-width: 1px;
+}
+.flex1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: aliceblue;
+  padding: 25px;
+}
+.flexbox-2 {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.561);
+  border-radius: 10px;
+  border: solid black;
+  border-width: 1px;
+}
+.flex2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: aliceblue;
+  padding: 25px;
+}
+.flex-main {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+}
+.top-container {
+  background-image: url(/imgs/hot\ air\ balloon.jpg);
+}
+.imgA {
+  padding-left: 10px;
+}
+.vl {
+  border-left: 3px solid rgba(255, 255, 255, 0.493);
+  height: 200px;
+}
+.places {
+  border-radius: 12px;
+}
+.middle-container {
+  background-color: rgba(0, 0, 0, 0.89);
+}
+.deals {
+  color: aliceblue;
+  width: 100%;
+}
+.places-name {
+  height: 50px;
+}
+.name {
+  text-align: center;
+}
+.imgB {
+  text-align: center;
+}
+.heading3 {
+  padding: 30px;
+  color: rgb(246, 222, 0);
+  text-align: center;
+}
+.btn2 {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  color: #ffae00;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 7px;
+  background-color: rgba(0, 0, 0, 0.21);
+  border: solid #ffffff 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+  width: 80px;
+}
+.btn2:hover {
+  color: #ffae00;
+  background: rgba(191, 191, 191, 0.15);
+  border: solid #ffffff 1px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.609);
+}
+.btn-cont {
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.search {
+  border-radius: 0;
+  border: none;
+}
+.search:hover {
+  border-radius: 0;
+  border: none;
+}
+.container3 {
+  background-image: url(https://www.travelweekly-asia.com/uploadedImages/Destinations/Australia_New_Zealand/Tourism-Australia-Sydney.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  background-size: cover;
+}
+.aus {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 100;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background-color: #741242;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.aus:hover {
+  background: rgba(120, 20, 53, 0.918);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.austxt1a {
+  color: aliceblue;
+  padding-top: 75px;
+}
+.austxt1b {
+  color: aliceblue;
+  padding-bottom: 75px;
+}
+.austxt2 {
+  color: #3d3d3d;
+  text-align: center;
+  padding-top: 10px;
+  /* padding-bottom: 30px; */
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.c1a {
+  display: flex;
+  background-image: url(/imgs/c1a.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(42, 42, 42);
+}
+.c2a {
+  display: flex;
+  background-image: url(/imgs/c2a.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(42, 42, 42);
+}
+.c3a {
+  display: flex;
+  background-image: url(/imgs/c3a.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(42, 42, 42);
+}
+.c4a {
+  display: flex;
+  background-image: url(/imgs/c4a.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(42, 42, 42);
+}
+.c1b {
+  display: flex;
+  background-image: url(/imgs/c1b.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(42, 42, 42);
+}
+.c2b {
+  display: flex;
+  background-image: url(/imgs/c2b.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(42, 42, 42);
+}
+.c3b {
+  display: flex;
+  background-image: url(/imgs/c3b.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(42, 42, 42);
+}
+.c4b {
+  display: flex;
+  background-image: url(/imgs/c4b.jpg);
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  background-blend-mode: soft-light;
+  background-color: rgb(42, 42, 42);
+}
+.placeflex-main1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.placeflex1 {
+  display: flex;
+  padding: 25px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.placeflex-main2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+.placeflex2 {
+  display: flex;
+  padding: 25px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.r1 {
+  color: #f8d300;
+  font-size: 30px;
+  font-weight: 500;
+  width: 90%;
+  margin: 0 auto;
+}
+.r1:hover {
+  color: #ffffff;
+}
+.container4 {
+  background-color: rgba(0, 0, 0, 0.89);
+}
+.con4heading {
+  color: rgb(246, 222, 0);
+  text-align: center;
+  padding: 25px;
+}
+.container5 {
+  background-color: #fdad01d3;
+  text-align: center;
+}
+.aboutP {
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 60px;
+}
+.aboutH {
+  padding: 30px;
+padding-top: 40px;
+}
+.flexmain3 {
+  display: flex;
+  text-align: left;
+  width: 30%;
+}
+.flexbox-3 {
+  display: flex;
+}
+.flexmain4 {
+  text-align: right;
+  display: flex;
+}
+.flexbox-4 {
+  display: flex;
+}
+.infoH {
+  display: inline;
+}
+.copyright {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  color: #464646;
+}
+.footer-link{
+    position:relative;
+    top: 20px;
+    padding: 15px;
+    padding-top: 10px;
+    color: #181818;
+  }
+.lowest-container{
+ text-align: center;
+ background-color: #fdad01d3;
+}
+.outer{
+  background-color: #212529;
+  display: flex;
+  width: 100%;
+  color: white;
+  padding: 20px;
+}
+.inner{
+  width: 50%;
+  height: 100%;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.infolast{
+  padding-top:30px;
+  padding-bottom: 20px;
+}
+.AppDownload{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.download{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+margin:30px 10px 75px 10px;
+}
+.infolink{
+  padding-top: 10px;
+  color: rgb(163, 163, 163);
+}
+.infolink:hover{
+  color: rgb(246, 222, 0);
+}
