@@ -371,6 +371,10 @@ padding-top: 40px;
     padding: 15px;
     padding-top: 10px;
     color: #181818;
+   text-decoration: none;
+  }
+.footer-link:hover{
+    text-decoration: none;
   }
 .lowest-container{
  text-align: center;
@@ -412,4 +416,14 @@ margin:30px 10px 75px 10px;
 }
 .infolink:hover{
   color: rgb(246, 222, 0);
+}
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(transparent,#ffae00);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+ background: #212529;
 }
